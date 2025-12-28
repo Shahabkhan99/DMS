@@ -21,8 +21,8 @@ Welcome to the **Data Management System (DMS)**. This application is designed to
 1.  **Download:** Get the latest `DMS_Enterprise.exe` from the Releases section.
     > **Tip:** You can place this file anywhere (Desktop, Documents, etc.). It acts as a standalone portable app.
 2.  **Launch:** Double-click `DMS_Enterprise.exe`.
-3.  **App Mode:** The application will launch in a secure "App Mode" window (no browser tabs or address bars).
-4.  **Trial License:** On the first run, a **Trial License** is automatically generated. You will be taken directly to the "Welcome" or "Login" screen.
+3.  **App Mode:** The application will launch in a secure "App Mode".
+4.  **Trial License:** On the first run, the system shows qr code to send a trial license request to admin, once admin confirm click Active License online or input the key manually to activate once done You will be taken directly to the "Welcome" or "Login" screen.
 
 ---
 
@@ -56,17 +56,40 @@ You must have the **OneDrive** or **SharePoint** desktop app installed, and the 
 
 ### Setup Steps
 
-#### For the Admin (User 1)
-1.  Create a folder in your OneDrive/SharePoint named `DMS_Central_Data`.
-2.  Open DMS Enterprise.
-3.  Paste the **local synced path** to that folder (e.g., `C:\Users\Admin\OneDrive - Company\DMS_Central_Data`).
-4.  Let the system generate the database files.
+### ☁️ SharePoint / Multi-User Setup (Admin Guide)
+
+**Objective:** Create a central shared database accessible to all staff via Windows File Explorer.
+
+1.  **Prepare the Cloud Folders:**
+    * Create a folder in your **OneDrive** named `DMS_Data`.
+    * Create a folder in your **SharePoint** named `DMS_Central_Data`.
+    * **Link** the OneDrive folder to the SharePoint Folder.
+
+2.  **Sync to Local Computer:**
+    * Once the link is established, look at the SharePoint header toolbar.
+    * Click the **3 dots (...)** to expand the menu.
+    * Click **Sync**.
+
+3.  **Verify Connection:**
+    * Open your Windows **File Explorer**.
+    * You will see a new **Office Building Icon** 🏢 (representing your Organization) appear above "This PC".
+    * Open it to confirm the `DMS_Central_Data` folder is visible inside.
+
+4.  **Connect DMS App:**
+    * Open the **DMS Enterprise** app.
+    * Navigate into the synced folder in File Explorer and copy the address path.
+    * Paste this **local synced path** into the app's "Shared Folder Path" field (e.g., `C:\Users\Admin\OneDrive - Company\DMS_Central_Data`).
+    * Click **Connect**.
+
+5.  **System Generation / Relinking:**
+    * **New Setup:** The system will automatically generate the database files (`Client_Database.xlsx`, etc.).
+    * **Existing Data:** If you already have a database in that folder, the app will simply **re-link** to it and retrieve your data immediately.
 
 #### For Staff (User 2, 3, etc.)
 1.  Ensure the staff member has **Edit permissions** to the shared OneDrive/SharePoint folder.
 2.  **Important:** Verify the folder is synced to *their* PC.
 3.  Open DMS Enterprise on their computer.
-4.  Paste **their specific local path** to the synced folder (e.g., `C:\Users\JohnDoe\OneDrive - Company\DMS_Central_Data`).
+4.  Paste **their specific local path** to the synced folder (e.g., `C:\Users\User2\OneDrive - Company\DMS_Central_Data`).
 
 **Result:** When User 1 saves a file, it uploads to the cloud and appears instantly for User 2.
 
