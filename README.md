@@ -24,6 +24,7 @@ Welcome to the **Data Management System (DMS)**. This application is designed to
 2.  **Launch:** Double-click `DMS_Enterprise.exe`.
 3.  **App Mode:** The application will launch in a secure "App Mode" window (no browser tabs or address bars).
 4.  **Trial License:** On the first run, a **Trial License** is automatically generated. You will be taken directly to the "Welcome" or "Login" screen.
+5.  **Download:** [Click here to download DMS_Enterprise.exe (v1.0)](https://drive.google.com/drive/folders/1QyzFfLsgYQ-lTR8QjTpoGHiujW40As4g?usp=sharing)
 
 ---
 
