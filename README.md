@@ -26,6 +26,9 @@ Welcome to the **Data Management System (DMS)**. This application is designed to
 4.  **Trial License:** On the first run, a **Trial License** is automatically generated. You will be taken directly to the "Welcome" or "Login" screen.
 5.  **Download:** [Click here to download DMS_Enterprise.exe (v1.0)](https://drive.google.com/drive/folders/1QyzFfLsgYQ-lTR8QjTpoGHiujW40As4g?usp=sharing)
 
+*(Screenshot: The Secure Login Screen)*
+![DMS Login Screen](2025-12-28_19-27-26.png)
+
 ---
 
 ## 2. Initial Setup: Connecting Your Data
@@ -46,6 +49,8 @@ Once connected, the system automatically generates the following structure in yo
 * `DMS_Database.xlsx` (Document metadata)
 * 📂 `DMS_Files/` (Secure storage for PDF/Images)
 * 📂 `Scanned_Ingest/` (Temporary folder for scanner inputs)
+
+* ![Connect Folder Screen](2025-12-28_19-27-42.png)
 
 ---
 
@@ -100,6 +105,8 @@ Once connected, the system automatically generates the following structure in yo
 2.  Enter the Name (e.g., "Apex Logistics").
 3.  Click **Save**. A unique ID (e.g., `CL-001`) is auto-assigned.
 
+ ![Add Document Screen](2025-12-28_19-28-35.png)
+
 #### Step 2: Add a Document
 1.  Navigate to **DMS Records** > **Add Document**.
 2.  **Scan:** Click `🖨️ Scan` to trigger your Windows scanner (WIA).
@@ -107,12 +114,16 @@ Once connected, the system automatically generates the following structure in yo
 4.  **Tag:** Select the *Client*, *Category* (Invoice, Contract, etc.), and *Department*.
 5.  **Save:** Click Save. The file is renamed with a unique ID (e.g., `SGAI-0056`) and moved to the secure folder.
 
+   ![Add Document Screen](2025-12-28_19-29-10.png)
+
 #### Step 3: Retrieve a Document
 1.  Navigate to **DMS Records** > **View Database**.
 2.  Use the 🔍 **Search** bar (search by Client Name, Ref ID, or Note).
 3.  Select the Document ID from the dropdown.
 4.  Click **📂 Open** to launch the file immediately.
 
+ ![Add Document Screen](2025-12-28_19-29-05.png)
+ 
 ---
 
 ## 5. Admin Settings & Configuration
@@ -136,6 +147,8 @@ Customize the lists used when adding documents to ensure consistent tagging.
 * *Use Case:* Use this if you need to move your database location or switch to a different cloud folder.
 * *Warning:* This does not delete your files, but the app will require you to "Connect Folder" again on the next launch.
 
+![Add Document Screen](2025-12-28_19-29-21.png)
+
 ---
 
 ## 6. Licensing & Activation
@@ -148,6 +161,7 @@ When your trial expires or you are ready to upgrade:
     * **🔑 Manual Key:** Paste the key text sent to you into the "Manual Key" tab and click **Activate**.
     * **🔄 Online Check:** If the Admin has updated your license remotely, click **Check Online & Activate**. The app will instantly update your version and expiry date.
 
+![Add Document Screen](2025-12-28_19-29-39.png)
 ---
 
 ## 7. Closing the App
