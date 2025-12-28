@@ -174,8 +174,8 @@ When your trial expires or you are ready to upgrade:
 
 # ☕ Support
 
-If you find this App useful after free trial, you can buy me a coffee!
-Or send me the license info query  
+If you find this app helpful after the free trial, your support—by purchasing a license or buying me a coffee—is greatly appreciated.
+Don't worry, the license is very cheap and the support is very high.
 
 # [![Support via PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NU8U7YL5PR96S)
 
