@@ -171,3 +171,12 @@ When your trial expires or you are ready to upgrade:
 * **🔴 SHUTDOWN SYSTEM** (Login Screen)
 
 **Why?** This ensures the system sends a secure "Disconnect" signal to the server before closing, preventing "ghost" sessions.
+
+# ☕ Support
+
+If you find this App useful after free trial, you can buy me a coffee!
+Or send me the license info query  
+
+# [![Support via PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NU8U7YL5PR96S)
+
+
