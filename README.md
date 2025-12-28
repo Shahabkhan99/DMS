@@ -33,7 +33,7 @@ Before using the app, you must define where the database and files will be store
 ### The "Connect Folder" Screen
 Upon your first login, you will be prompted to enter a **Shared Folder Path**.
 
-### Option A: Single User (Local Storage)
+### Single User (Local Storage)
 1.  Create a folder on your computer (e.g., `C:\MyDocuments\DMS_Data`).
 2.  Paste that full path into the DMS application.
 3.  Click **Connect**.
