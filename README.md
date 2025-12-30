@@ -59,8 +59,9 @@ Once connected, the system automatically generates the following structure in yo
 **Objective:** Create a central shared database accessible to all staff via Windows File Explorer.
 
 1.  **Prepare the Cloud Folders:**
-    * Create a folder in your **OneDrive** named `DMS_Data`.
-    * Create a folder in your **SharePoint** named `DMS_Central_Data`.
+   * Create a folder in your **SharePoint** named `DMS_Central_Data`.
+   * Right click and make shortcut in **OneDrive** `DMS_Central_Data`.
+    
     * **Link** the OneDrive folder to the SharePoint Folder.
 
 2.  **Sync to Local Computer:**
@@ -72,11 +73,12 @@ Once connected, the system automatically generates the following structure in yo
     * Open your Windows **File Explorer**.
     * You will see a new **Office Building Icon** 🏢 (representing your Organization) appear above "This PC".
     * Open it to confirm the `DMS_Central_Data` folder is visible inside.
+    * No need to do or use this folder ... this is for link perpouse only.
 
 4.  **Connect DMS App:**
     * Open the **DMS Enterprise** app.
-    * Navigate into the synced folder in File Explorer and copy the address path.
-    * Paste this **local synced path** into the app's "Shared Folder Path" field (e.g., `C:\Users\Admin\OneDrive - Company\DMS_Central_Data`).
+    * Navigate into the **OneDrive** windows folder in File Explorer and open `DMS_Central_Data` shortcut and copy the address path.
+    * Paste this **Shortcut path** into the app's "Shared Folder Path" field (e.g., `C:\Users\Admin\OneDrive - Company\DMS_Central_Data`).
     * Click **Connect**.
 
 5.  **System Generation / Relinking:**
